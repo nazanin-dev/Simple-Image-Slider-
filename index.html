@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="img-container">
+    <div class="slide fade">
+        <div class="number">1 / 4</div>
+        <img src="./img/pic (6).jpg" alt="" class="img"> 
+        <div class="caption">Lorem ipsum dolor sit.</div>
+    </div>
+    <div class="slide fade ">
+        <div class="number">2 / 4</div>
+        <img src="./img/pic (2).jpg" alt="" class="img"> 
+        <div class="caption">Lorem ipsum dolor sit.</div>
+    </div>
+    <div class="slide fade">
+        <div class="number">3 / 4</div>
+        <img src="./img/pic (3).jpg" alt="" class="img"> 
+        <div class="caption">Lorem ipsum dolor sit.</div>
+    </div>
+    <div class="slide ">
+        <div class="number">4 / 4</div>
+        <img src="./img/pic (4).jpg" alt="" class="img"> 
+        <div class="caption">Lorem ipsum dolor sit.</div>
+    </div>
+
+    <span class="prev" onclick="controlslide(-1)">&#10094;</span>   
+    <span class="next" onclick="controlslide(1)"> &#10095; </span>
+
+   </div> 
+
+   <div class="dot-con">
+    <span class="dot" onclick="dotSlide(1)"  ></span>
+    <span class="dot" onclick="dotSlide(2)" ></span>
+    <span class="dot" onclick="dotSlide(3)" ></span>
+    <span class="dot" onclick="dotSlide(4)" ></span>
+   </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
